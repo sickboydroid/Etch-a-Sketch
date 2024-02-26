@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="left-panel">
+      <div class="brush-options">
+        <input
+          type="button"
+          class="selected-button"
+          value="Normal"
+          id="normal"
+        />
+        <input type="button" value="Eraser" id="eraser" />
+        <input type="button" value="Rainbow" id="rainbow" />
+      </div>
+      <input type="button" value="Clear" id="clear" />
+      <input type="button" value="Regenerate" id="regenerate" />
+      <p>Hold <b>ctrl</b> key and move <b>mouse pointer</b> to draw</p>
+    </div>
+    <div class="grid"></div>
+  </body>
+</html>

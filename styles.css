@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --grid-width: 600px;
+  --grid-height: 600px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 16px;
+}
+
+.left-panel {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.left-panel input {
+  padding: 6px;
+  width: 100px;
+}
+
+.brush-options {
+  display: flex;
+  gap: 12px;
+}
+
+.container {
+  background-color: red;
+  min-height: var(--grid-height);
+  min-width: var(--grid-width);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: yellow;
+  min-width: var(--grid-width);
+}
+
+.selected-button {
+  background-color: black;
+  color: white;
+}
+
+.selected-button:hover {
+  background-color: #363636;
+}
